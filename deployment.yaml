@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: demo-container
-        image: nginx:latest
+        image: kamalguntur/ci-docker-job:latest
         ports:
         - containerPort: 80
